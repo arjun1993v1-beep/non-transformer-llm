@@ -74,6 +74,17 @@ Without requiring:
 > Weights act as a **compact knowledge representation**
 
 ---
+## 🔹 v10 — Hybrid Brain
+
+Combines symbolic reasoning and neural generation.
+
+Pipeline:
+question → reasoning engine → concept chain → neural generator → answer
+
+Key improvements:
+- Multi-word context (3 words)
+- Better answer accuracy
+- Reduced random generation errors
 
 ## 🧠 Core Concepts
 
