@@ -132,9 +132,35 @@ Key improvements:
 - More focused reasoning
 - Reduced incorrect multi-hop chains
 - Better factual consistency
+- -----------------+-+--+--+----------
+- 
+🔹 v14 — Controlled Cluster Hybrid
+GF-SDM v14 introduces a stable hybrid architecture combining:
+- v11 correctness (deterministic fact-based answers)
+- Cluster-based reasoning (focused, domain-aware thinking)
+- Concept-level neural system (clean, efficient learning)
 
+Key Improvements
+
+- ✅ Query routing:
+  
+  - “what is” → direct fact (no randomness)
+  - “how/why” → controlled reasoning
+
+- ✅ Domain-locked clusters (no cross-topic errors)
+
+- ✅ Concept-based learning (less noise, faster training)
+
+- ✅ Strict validation (prevents hallucination)
+
+Result
+
+- Stable and predictable outputs
+- Explainable reasoning
+- CPU-friendly (no transformers, no GPU)
+
+«v14 shifts the system from experimental behavior to a controlled, reliable hybrid AI architecture»
 ---
-
 🧠 Core Concepts
 
 1. Symbolic Reasoning
