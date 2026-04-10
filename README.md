@@ -1,305 +1,258 @@
-🧠 GF-SDM — Alternative AI Architecture (No Transformers)
+🧠 GF-SDM — Structured Hybrid AI (No Transformers)
 
-Building LLM-like intelligence using symbolic reasoning + concept graphs + lightweight neural networks — without transformers.
+Building controlled, explainable intelligence using symbolic reasoning + concept graphs + lightweight neural networks.
 
 ---
 
-🚀 Vision
+## 🚀 Vision
 
 GF-SDM explores a core question:
 
-«Can intelligence emerge from structure and reasoning, instead of scale?»
+> **Can intelligence emerge from structure, reasoning, and control — instead of scale?**
 
-This system is built to test whether we can achieve LLM-like behavior using:
+This system investigates whether we can approximate LLM-like behavior using:
 
-- Structured knowledge
-- Concept relationships
-- Controlled reasoning
-- Small neural networks
+- Structured knowledge  
+- Concept relationships  
+- Controlled reasoning  
+- Small neural components  
 
 Without relying on:
 
-- GPUs
-- Massive datasets
-- Transformer architectures
+- GPUs  
+- Massive datasets  
+- Transformer architectures  
 
 ---
 
-🧩 Architecture Evolution
+## 🧩 Core Philosophy
 
-🔹 v1–v4 — Pattern Learning
+> **Truth first. Language second.**
 
-- N-gram based generation
-- Basic dataset ingestion
-- Early language formation
-
----
-
-🔹 v5–v7 — Symbolic + Factual System
-
-- Q&A-based factual learning
-- Self-check evaluation loop
-- Concept extraction and linking
-
-👉 Shift from pattern → meaning
+- Facts determine correctness  
+- Reasoning connects knowledge  
+- Neural networks only express answers  
 
 ---
 
-🔹 v8 — Self-Building Brain
+## 🧩 Architecture Evolution
 
-- Concept normalization (synonyms unified)
-- Graph-based knowledge structure
-- Multi-hop reasoning (A → B → C)
-- Automatic dataset expansion
-- Persistent memory
-
-👉 Key idea:
-Intelligence emerges from connected concepts
+### 🔹 v1–v4 — Pattern Learning
+- N-gram based generation  
+- Basic dataset ingestion  
+- Early language formation  
 
 ---
 
-🔹 v9 — Neural Brain (NumPy)
+### 🔹 v5–v7 — Symbolic + Factual System
+- Q&A-based factual learning  
+- Self-check evaluation  
+- Concept extraction and linking  
 
-- Custom neural network (no frameworks)
-- Embedding → Hidden → Softmax
-- Word-level generation
-- Learns language patterns from data
-
-👉 Neural = language generator (not reasoning engine)
+👉 Shift from pattern → meaning  
 
 ---
 
-🔹 v10 — Hybrid Brain
+### 🔹 v8 — Self-Building Brain
+- Concept normalization (synonyms unified)  
+- Graph-based knowledge structure  
+- Multi-hop reasoning (A → B → C)  
+- Automatic dataset expansion  
+- Persistent memory  
 
-Combines symbolic reasoning with neural generation.
-
-Pipeline:
-
-question → concept reasoning → neural generation → answer
-
-Improvements:
-
-- Context-aware generation
-- Reduced randomness
-- More coherent outputs
+👉 Intelligence emerges from connections  
 
 ---
 
-🔹 v11 — Controlled Hybrid
+### 🔹 v9 — Neural Brain (NumPy)
+- Custom neural network (no frameworks)  
+- Embedding → Hidden → Softmax  
+- Word-level generation  
 
-Adds control and reliability:
-
-- 🔒 Anchored responses (focus on main concept)
-- ✅ Validation layer (prevents incorrect outputs)
-- 📚 Q→A training for factual grounding
-
-👉 Key idea:
-Control is more important than generation
+👉 Neural = language generator (not reasoning)  
 
 ---
 
-🔹 v12 — Symbolic-First Architecture (Major Shift)
+### 🔹 v10 — Hybrid Brain
+- Combines symbolic reasoning + neural generation  
+- Improved coherence and reduced randomness  
 
+---
+
+### 🔹 v11 — Controlled Hybrid
+- 🔒 Anchored responses  
+- ✅ Validation layer  
+- 📚 Q→A training  
+
+👉 Control > randomness  
+
+---
+
+### 🔹 v12 — Symbolic-First Architecture
 Pipeline redesign:
 
-question → symbolic fact → neural rephrase → answer
+question → fact → neural rephrase → answer
 
-Improvements:
-
-- ✅ Eliminates drift in answers
-- ✅ Ensures factual grounding
-- ✅ Neural network used only for language
-
-👉 Key insight:
-
-«Neural networks should not decide truth — only express it.»
+👉 Neural does NOT decide truth  
 
 ---
 
-🔹 v13 — Controlled Reasoning Graph
+### 🔹 v13 — Controlled Reasoning Graph
+- Weak-word filtering  
+- Path scoring  
+- Domain-aware reasoning  
+- Concept limits  
 
-Focus on fixing reasoning errors from v12.
-
-Key improvements:
-
-- 🧹 Weak-word filtering (removes noisy connections)
-- 🎯 Path scoring (selects relevant reasoning chains)
-- 🧠 Domain-aware reasoning (reduces cross-domain errors)
-- 🔒 Concept limits (prevents over-expansion)
-
-👉 Result:
-
-- More focused reasoning
-- Reduced incorrect multi-hop chains
-- Better factual consistency
-- -----------------+-+--+--+----------
-- 
-🔹 v14 — Controlled Cluster Hybrid
-GF-SDM v14 introduces a stable hybrid architecture combining:
-- v11 correctness (deterministic fact-based answers)
-- Cluster-based reasoning (focused, domain-aware thinking)
-- Concept-level neural system (clean, efficient learning)
-
-Key Improvements
-
-- ✅ Query routing:
-  
-  - “what is” → direct fact (no randomness)
-  - “how/why” → controlled reasoning
-
-- ✅ Domain-locked clusters (no cross-topic errors)
-
-- ✅ Concept-based learning (less noise, faster training)
-
-- ✅ Strict validation (prevents hallucination)
-
-Result
-
-- Stable and predictable outputs
-- Explainable reasoning
-- CPU-friendly (no transformers, no GPU)
-
-«v14 shifts the system from experimental behavior to a controlled, reliable hybrid AI architecture»
----
-🧠 Core Concepts
-
-1. Symbolic Reasoning
-
-- Knowledge stored as structured facts
-- Transparent and explainable
-- No black-box decisions
+👉 Cleaner reasoning, less noise  
 
 ---
 
-2. Multi-hop Reasoning
+### 🔹 v14 — Controlled Cluster Hybrid (Current)
+
+Major stability + architecture upgrade:
+
+#### 🔑 Key Improvements
+
+- ✅ Query routing  
+  - **“what is X” → direct fact (deterministic)**  
+  - **“how/why” → controlled reasoning**  
+
+- ✅ Cluster-based reasoning  
+  - Domain-aware (physics, biology, etc.)  
+  - No global graph chaos  
+
+- ✅ Concept-level neural system  
+  - Learns relationships (not words)  
+  - Faster and cleaner  
+
+- ✅ Strict validation  
+  - Prevents hallucination  
+  - Ensures factual grounding  
+
+---
+
+## 🏗️ Architecture (v14)
+
+Question ↓ Query Routing ├── Simple (what is X) │     → Direct Fact Retrieval │ └── Complex (how/why) → Cluster Selection → Concept Neural Prediction → Graph Validation → Answer
+
+---
+
+## 🧠 Core Components
+
+### 1. Symbolic Knowledge (Truth Layer)
+- Structured facts  
+- Concept graph  
+- Fully explainable  
+
+---
+
+### 2. Cluster-Based Reasoning (Focus Layer)
+- Domain-based clusters  
+- Prevents cross-topic errors  
 
 Example:
 
-gravity → mass → objects → light
-
-The system connects concepts step-by-step to form explanations.
+"memory" → biology cluster NOT physics
 
 ---
 
-3. Concept Normalization
+### 3. Concept-Level Neural System
 
-Different words mapped to same meaning:
+gravity → attract → mass
 
-large = massive
-generate = produce
-
-Improves reasoning consistency.
-
----
-
-4. Neural Language Layer
-
-- Generates natural language
-- Trained on structured facts
-- Does NOT decide correctness
+- Uses concept IDs  
+- Reduces noise  
+- Faster learning  
 
 ---
 
-⚡ Features
-
-- ✅ Pure Python (NumPy only)
-- ✅ CPU-friendly (runs on low-end systems)
-- ✅ No external ML frameworks
-- ✅ Explainable reasoning
-- ✅ Multi-hop concept linking
-- ✅ Hybrid symbolic + neural system
+### 4. Validation Layer
+- Filters incorrect reasoning  
+- Ensures factual correctness  
+- Fallback → direct fact  
 
 ---
 
-🏗️ Current Pipeline (v12/v13)
-
-User Question
-      ↓
-Concept Extraction
-      ↓
-Symbolic Fact Retrieval
-      ↓
-(Filtered Multi-hop Reasoning)
-      ↓
-Neural Rephrasing
-      ↓
-Validation
-      ↓
-Final Answer
+### 5. Language Layer
+- Converts concepts → sentences  
+- Does NOT decide truth  
 
 ---
 
-📊 Example
+## ⚡ Features
 
-Input:
+- ✅ Pure Python (NumPy only)  
+- ✅ CPU-friendly  
+- ✅ No external ML frameworks  
+- ✅ Deterministic factual answers  
+- ✅ Explainable reasoning  
+- ✅ Hybrid symbolic + neural system  
 
-what connects gravity and light
+---
 
-Output:
+## 📊 Example Outputs
+
+**Q: what is gravity**
 
 Gravity is a fundamental force that attracts objects with mass.
+
+**Q: how does dna work**
+
+DNA stores information in sequences of base pairs.
+
+**Q: why does light bend near gravity**
+
 Light bends when passing near massive objects due to gravity.
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
 
-- Limited conversational ability
-- Small dataset (~100–200 facts)
-- Neural model is lightweight
-- Reasoning still needs tighter control in edge cases
-
----
-
-🔥 Why Not Transformers?
-
-Transformers| GF-SDM
-Massive scale| Lightweight
-Black-box| Explainable
-GPU required| CPU-friendly
-Implicit knowledge| Explicit + structured
+- Limited conversational ability  
+- Neural model is simple  
+- Requires explicit concept mapping  
+- Small dataset (~100–200 facts)  
 
 ---
 
-🎯 Goals
+## 🎯 Goals
 
-- Explore non-transformer AI architectures
-- Build efficient AI for low-resource devices
-- Combine reasoning + generation
-- Develop explainable intelligence systems
-
----
-
-📌 Future Work
-
-- Stronger reasoning constraints
-- Better language generation (conversation ability)
-- Concept-level representation (ID-based system)
-- Improved dataset quality (not just size)
-- Self-learning from interactions
+- Explore non-transformer AI architectures  
+- Build efficient AI for low-resource systems  
+- Combine reasoning + generation  
+- Create explainable intelligence systems  
 
 ---
 
-🤝 Contribution
+## 📌 Future Work
 
-This is an experimental research project.
-Ideas, feedback, and improvements are welcome.
-
----
-
-👤 Author
-
-Arjun R
-
-Independent AI exploration focused on:
-
-- Alternative AI architectures
-- Lightweight intelligence systems
-- Brain-inspired reasoning models
+- GRU / sequence-based neural upgrade  
+- Better language generation  
+- Concept abstraction (map unseen → known)  
+- Controlled multi-hop reasoning  
 
 ---
 
-🌌 Final Thought
+## 🤝 Contribution
 
-«Intelligence may not require massive scale —
-it may emerge from structure, memory, and connection.»
+This is an experimental research project.  
+Feedback, ideas, and critiques are welcome.
+
+---
+
+## 👤 Author
+
+Arjun R  
+
+Exploring:
+- Alternative AI architectures  
+- Lightweight intelligence systems  
+- Neuro-symbolic reasoning  
+
+---
+
+## 🌌 Final Thought
+
+> “Intelligence may not require massive scale —  
+> it may emerge from structure, control, and connection.”
+
