@@ -85,6 +85,11 @@ Key improvements:
 - Multi-word context (3 words)
 - Better answer accuracy
 - Reduced random generation errors
+- 
+- v11 — Controlled Hybrid
+Anchored generation
+Strict fallback validation
+Q→A training
 
 ## 🧠 Core Concepts
 
